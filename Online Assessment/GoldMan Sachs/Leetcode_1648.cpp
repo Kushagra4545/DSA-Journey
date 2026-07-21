@@ -11,6 +11,67 @@ Return the maximum total value that you can attain after selling orders colored 
 #include<bits/stdc++.h>
 using namespace std;
 
-int main(){
-    
-}
+class Solution {
+public:
+    int maxProfit(vector<int>& inventory, int orders) {
+        const long long MOD = 1e9 + 7;
+
+        sort(inventory.begin(), inventory.end());
+
+        long long common = 1;
+        long long ans = 0;
+
+        for (int i = inventory.size() - 1; i > 0; i--) {
+
+            if (inventory[i] == inventory[i - 1]) {
+                common++;
+                continue;
+            }
+
+            long long curr = inventory[i];
+            long long next = inventory[i - 1];
+            long long level = curr - next;
+
+            if (orders >= level * common) {
+
+                long long sold = (curr + next + 1) * level / 2;
+
+                ans = (ans + (sold % MOD) * common) % MOD;
+
+                orders -= level * common;
+            } else {
+
+                long long fullLevel = orders / common;
+                long long rem = orders % common;
+
+                long long low = curr - fullLevel;
+
+                long long sold = (curr + low + 1) * fullLevel / 2;
+
+                ans = (ans + (sold % MOD) * common) % MOD;
+                ans = (ans + (rem * low) % MOD) % MOD;
+
+                return ans;
+            }
+
+            common++;
+        }
+
+        if (orders > 0) {
+
+            long long curr = inventory[0];
+
+            long long fullLevel = orders / common;
+            long long rem = orders % common;
+
+            long long low = curr - fullLevel;
+
+            long long sold = (curr + low + 1) * fullLevel / 2;
+
+            ans = (ans + (sold % MOD) * common) % MOD;
+            ans = (ans + (rem * low) % MOD) % MOD;
+        }
+
+        return ans;
+    }
+};
