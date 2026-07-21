@@ -11,8 +11,22 @@ find the min of the sum.
 #include<bits/stdc++.h>
 using namespace std;
 
+//My solution 
 int getMin(vector<int>& security_values, string msg){
-    
+    vector<int>values;
+    for(int i = 0; i < msg.size(); i++){
+        int idx = msg[i] - 'a';
+        int val = security_values[idx];
+        values.push_back(val);
+    }
+
+    sort(values.begin(), values.end());
+
+    int ans = 0;
+    for(int i = 1; i < values.size(); i++){
+        ans += abs(values[i-1] - values[i]);
+    }
+    return ans;
 }
 
 int main(){
