@@ -11,7 +11,7 @@ Welcome to my DSA Journey.
 
 ## Goal
 
-- Solve 700+ problems
+- Solve 1000+ problems
 - Master Data Structures
 - Master Algorithms
 - Prepare for SDE interviews
@@ -19,3 +19,23 @@ Welcome to my DSA Journey.
 ## Languages
 
 - C++
+
+## File Structure
+
+```text
+DSA-Journey/
+├── CSES/
+├── CodeForces/
+│   ├── 900/
+│   └── 1000/
+├── GFG/
+├── LeetCode/
+│   ├── Daily Problem/
+│   ├── Dynamic Programming/
+│   ├── Important Problem/
+│   └── Random Problem/
+└── Online Assessment/
+    ├── BNY/
+    ├── DE Shaw/
+    └── GoldMan Sachs/
+```
