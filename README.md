@@ -6,6 +6,8 @@ Welcome to my DSA Journey.
 
 - LeetCode
 - Codeforces
+- Geeks For Geeks
+- CSES Problem Set
 
 ## Goal
 
