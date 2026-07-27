@@ -1,8 +1,7 @@
 /*
 Problem Link - https://leetcode.com/problems/first-missing-positive/
 
-Time - O(n^3);
-Space - O(n^2);
+
 */
 
 #include<bits/stdc++.h>
