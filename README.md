@@ -1,6 +1,7 @@
 # DSA Journey
 
 Welcome to my DSA Journey.
+I will be sharing all the questions that i solved whole journey.
 
 ## Platforms
 
