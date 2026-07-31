@@ -25,12 +25,16 @@ Welcome to my DSA Journey.
 ```text
 DSA-Journey/
 ├── CSES/
+│   └── Dynamic Programming/
 ├── CodeForces/
 │   ├── 900/
-│   └── 1000/
+│   ├── 1000/
+│   └── Contest/
 ├── GFG/
 ├── LeetCode/
+│   ├── Binary Search/
 │   ├── Contest/
+│   │   └── Weekly Contest 512/
 │   ├── Daily Problem/
 │   ├── Dynamic Programming/
 │   ├── Important Problem/
@@ -38,5 +42,6 @@ DSA-Journey/
 └── Online Assessment/
     ├── BNY/
     ├── DE Shaw/
-    └── GoldMan Sachs/
+    ├── GoldMan Sachs/
+    └── SalesForce/
 ```
