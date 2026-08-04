@@ -1,13 +1,12 @@
 # DSA Journey
 
 Welcome to my DSA Journey.
-I will be sharing all the questions that i solved whole journey.
+I will be sharing all the questions that I solve throughout this journey.
 
 ## Platforms
 
 - LeetCode
 - Codeforces
-- Geeks For Geeks
 - CSES Problem Set
 
 ## Goal
@@ -20,29 +19,35 @@ I will be sharing all the questions that i solved whole journey.
 ## Languages
 
 - C++
+- Python
 
 ## File Structure
 
 ```text
 DSA-Journey/
 ├── CSES/
-│   └── Dynamic Programming/
+│   ├── Dynamic Programming/
+│   ├── Graph/
+│   └── Sorting And Searching/
 ├── CodeForces/
 │   ├── 900/
-│   ├── 1000/
 │   └── Contest/
-├── GFG/
 ├── LeetCode/
 │   ├── Binary Search/
+│   │   └── BS on 1D array/
 │   ├── Contest/
-│   │   └── Weekly Contest 512/
+│   │   ├── Biweekly Contest 188/
+│   │   ├── Weekly Contest 512/
+│   │   └── Weekly Contest 513/
 │   ├── Daily Problem/
 │   ├── Dynamic Programming/
 │   ├── Important Problem/
 │   └── Random Problem/
-└── Online Assessment/
-    ├── BNY/
-    ├── DE Shaw/
-    ├── GoldMan Sachs/
-    └── SalesForce/
+├── Online Assessment/
+│   ├── BNY/
+│   ├── GoldMan Sachs/
+│   ├── Next Hop/
+│   ├── SalesForce/
+│   └── TeraData/
+└── QR code Generator/
 ```
