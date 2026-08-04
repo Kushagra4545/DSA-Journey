@@ -4,32 +4,39 @@ Problem Link - https://leetcode.com/problems/count-subarrays-with-even-odd-ratio
 
 */
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-class Solution {
+class Solution
+{
 public:
-    int countRatioSubarrays(vector<int>& nums, int a, int b) {
+    int countRatioSubarrays(vector<int> &nums, int a, int b)
+    {
         int n = nums.size();
-    
+
         int count = 0;
-        double checkVal = static_cast<double>(a)/b;
+        double checkVal = static_cast<double>(a) / b;
 
         int evenVal = 0;
         int oddVal = 0;
 
-        for(int i = 0; i < n; i++){
-            for(int j = i; j < n; j++){
-                if(nums[j] % 2 == 0){
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = i; j < n; j++)
+            {
+                if (nums[j] % 2 == 0)
+                {
                     evenVal += 1;
-                } 
-                else{
+                }
+                else
+                {
                     oddVal += 1;
                 }
 
-                double val = static_cast<double>(evenVal)/oddVal;
+                double val = static_cast<double>(evenVal) / oddVal;
 
-                if(oddVal > 0 && val <= checkVal){
+                if (oddVal > 0 && val <= checkVal)
+                {
                     count++;
                 }
             }
