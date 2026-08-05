@@ -4,6 +4,9 @@ Problem Link - https://leetcode.com/problems/remove-methods-from-project/descrip
 Time - O((V + E)logV)
 Space - O(V + E)
 */
+/*
+This can be took down to O(V + E) by using a vector<bool>isSus which boils down the time of searching to O(1);
+*/
 #include<bits/stdc++.h>
 using namespace std;
 
