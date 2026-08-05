@@ -16,20 +16,31 @@ int main(){
     sort(weights.begin(), weights.end());
 
     int ans = 0;
-    
     int i = 0;
-    int j = 1;
+    int j = n-1;
 
-    while(j < n){
-        int val = weights[i] + weights[j];
+    while(i <= j){
+        int val1 = weights[i];
+        int val2 = weights[j];
 
-        if(val <= x){
+        if(i == j){
+            ans += 1;
+            break;
+        }
+
+        if(val1 + val2 <= x){
+            ans += 1;
+            i++;
+            j--;
+        }
+        else if(val1 > val2){
             ans++;
             i++;
-            j++;
         }
-        else if(weights[i] >= x){
-            
+        else{
+            ans++;
+            j--;
         }
     }
+    cout<<ans<<endl;
 }
