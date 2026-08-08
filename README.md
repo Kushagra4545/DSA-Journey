@@ -48,6 +48,7 @@ DSA-Journey/
 │   ├── 900/
 │   ├── 1000/
 │   └── Contest/
+│       ├── DIV 2/
 │       └── Div 3/
 ├── GFG/
 ├── LeetCode/
