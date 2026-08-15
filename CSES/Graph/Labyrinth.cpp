@@ -20,7 +20,7 @@ int main(){
     char dir[4] = {'R', 'D', 'L', 'U'};
 
     vector<vector<pair<int, int>>>parent(n, vector<pair<int, int>>(m, {-1, -1}));
-
+    
     vector<vector<char>>move(n, vector<char>(m));
 
     int stRow, stCol;
