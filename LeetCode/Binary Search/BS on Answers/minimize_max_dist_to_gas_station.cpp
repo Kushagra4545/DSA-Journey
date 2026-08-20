@@ -3,12 +3,12 @@ using namespace std;
 
 class Solution {
   public:
-    int isPossible(vector<int>& diff, int k, double mid){
+    bool isPossible(vector<int>& diff, int k, double mid){
         int count = 0;
         for(int i = 0; i < diff.size(); i++){
             count += ceil(diff[i]/mid) - 1;
         }
-        return count;
+        return count <= k;
     }
     double minMaxDist(vector<int> &stations, int k) {
         // Code here
@@ -23,10 +23,11 @@ class Solution {
         double d = 1e-6;
         while(high - low > d){
             double mid = low + (high - low)/2.0;
-            int count = isPossible(diff, k, mid);
-            if(count > k) low = mid;
-            else{
+            if(isPossible(diff, k, mid)){
                 high = mid;
+            }
+            else{
+                low = mid;
             }
             
         }
