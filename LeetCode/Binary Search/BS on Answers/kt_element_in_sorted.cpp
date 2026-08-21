@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//Time - O(min(log(n), log(m)));
+//Space - O(1);
+
 class Solution {
   public:
     int kthElement(vector<int> &a, vector<int> &b, int k) {
