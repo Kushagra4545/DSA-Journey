@@ -2,95 +2,66 @@
 
 # DSA Journey
 
-**A structured collection of C++ solutions for data structures, algorithms, contests, and interview preparation.**
+**A structured record of my C++ problem-solving practice across competitive programming, DSA topics, and interview preparation.**
 
 ![Language](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Problems](https://img.shields.io/badge/Solutions-79+-2E7D32?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Files-138%2B-2E7D32?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Focus-DSA%20%7C%20CP%20%7C%20Interviews-FF6F00?style=for-the-badge)
 
 </div>
 
 ## About
 
-Welcome to my DSA Journey. This repository tracks my solutions from coding platforms, contests, and online assessments as I build stronger problem-solving habits and prepare for SDE interviews.
+This repository is my personal archive of solutions, notes, and practice work for data structures, algorithms, competitive programming, and company interview preparation. The goal is to strengthen problem-solving skills through consistent daily practice and organized topic-wise revision.
 
-## Platforms
+## Platforms Covered
 
-| Icon | Platform | Focus |
-| --- | --- | --- |
-| 🟧 | LeetCode | Daily problems, topic practice, contests |
-| 🟦 | Codeforces | Competitive programming and rated practice |
-| 🟨 | CSES Problem Set | Standard algorithmic patterns |
-| 🟩 | GeeksforGeeks | Concept strengthening |
-| 🧩 | Online Assessments | Company-wise interview practice |
+| Platform | Focus |
+| --- | --- |
+| LeetCode | Daily problems, topic-based training, contests |
+| Codeforces | CP practice and rating-oriented problem solving |
+| CSES | Standard algorithmic patterns and graph/DP practice |
+| GFG | Concept reinforcement and interview-related problem sets |
+| Online Assessments | Company-specific coding rounds and assessment practice |
 
-## Goals
+## Current Goals
 
-- 🎯 Solve 1000+ problems
-- 🧠 Build strong problem-solving intuition
-- ⚙️ Master core data structures and algorithms
-- 💼 Prepare for SDE interviews and coding rounds
+- 🎯 Build a strong foundation in data structures and algorithms
+- 🧠 Improve intuition for pattern recognition in problem-solving
+- ⚙️ Practice both standard and advanced algorithmic techniques
+- 💼 Prepare for coding interviews and online assessment rounds
 
 ## Tech Stack
 
-- **Language:** C++
-- **Style:** Platform-wise and topic-wise solution organization
+- Language: C++
+- Organization style: platform-wise, topic-wise, and company-wise
 
-## Folder Structure
+## Repository Structure
 
 ```text
 DSA-Journey/
 ├── CSES/
-│   ├── Dynamic Programming/
-│   ├── Graph/
-│   └── Sorting And Searching/
 ├── CodeForces/
-│   ├── 900/
-│   ├── 1000/
-│   └── Contest/
-│       ├── DIV 2/
-│       └── Div 3/
 ├── GFG/
 ├── LeetCode/
-│   ├── Binary Search/
-│   │   ├── BS on 1D array/
-│   │   ├── BS on 2D array/
-│   │   └── BS on Answers/
-│   ├── Contest/
-│   │   ├── Biweekly Contest 188/
-│   │   ├── Weekly Contest 512/
-│   │   └── Weekly Contest 513/
-│   ├── Daily Problem/
-│   ├── Dynamic Programming/
-│   ├── Graph /
-│   │   ├── BFS/
-│   │   └── Dijkstra Algo/
-│   ├── Important Problem/
-│   └── Random Problem/
 ├── Online Assessment/
-│   ├── BNY/
-│   ├── DE Shaw/
-│   ├── GoldMan Sachs/
-│   ├── Next Hop/
-│   ├── SalesForce/
-│   └── TeraData/
-└── README.md
+├── README.md
 ```
 
 ## Progress Snapshot
 
-| Category | Status |
+| Metric | Value |
 | --- | --- |
-| Total C++ solutions | **79+** |
+| Total C++ files | **138+** |
 | Primary language | **C++** |
-| Main practice areas | **DSA, CP, interviews** |
-| Organization | **Platform + topic + company** |
+| Main focus | **DSA, CP, interviews** |
+| Repository style | **Platform + topic + company** |
 
 ## Notes
 
-- 📁 Solutions are organized by platform, topic, contest, or company.
-- 🧪 Empty folders are kept as placeholders for future problems.
-- 🚀 This repository will keep growing as I solve more problems.
+- 📁 Problems are organized by platform, subject, contest, or company.
+- 🧪 The repository continues to grow with new solutions and tracked practice.
+- 🚀 Daily consistency is the main objective, not just volume.
 
 ---
 
