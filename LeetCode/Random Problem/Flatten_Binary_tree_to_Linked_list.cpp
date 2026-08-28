@@ -1,3 +1,8 @@
+struct TreeNode{
+    int* left;
+    int* right;
+};
+
 #include<bits/stdc++.h>
 using namespace std;
 
